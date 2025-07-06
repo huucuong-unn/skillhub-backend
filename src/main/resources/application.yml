@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: local   #default local
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework: INFO
